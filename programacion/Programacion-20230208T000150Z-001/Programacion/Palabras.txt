@@ -1,0 +1,3 @@
+helicopteros
+automoviles
+peluquerias

@@ -1,0 +1,48 @@
+A continuación, se presenta un esquema general de las clases y los métodos que podrían ser necesarios para implementar cada una de las funciones requeridas:
+
+Clase Municipio
+Atributos:
+Nombre
+Población total
+Cantidad de hombres
+Edad promedio de la población
+Ingreso promedio de la población
+Temperatura media del departamento
+Métodos:
+Constructor(es)
+Métodos para obtener y establecer los valores de los atributos
+Método para calcular los totales del censo del departamento y a nivel nacional después de agregar un municipio
+Sobrecarga del operador << para imprimir los detalles del municipio
+Clase Departamento
+Atributos:
+Nombre
+Lista de municipios
+Total de población
+Total de hombres
+Total de mujeres (calculado a partir de la población y los hombres)
+Edad promedio de la población
+Ingreso promedio de la población
+Temperatura media del departamento
+Métodos:
+Constructor(es)
+Método para agregar un municipio a la lista
+Método para eliminar un municipio de la lista
+Métodos para obtener los valores de los atributos
+Método para calcular los totales del censo del departamento y a nivel nacional después de agregar o eliminar un municipio
+Sobrecarga del operador << para imprimir los detalles del departamento
+Clase Censo
+Atributos:
+Lista de departamentos
+Métodos:
+Constructor(es)
+Método para agregar un departamento a la lista
+Método para eliminar un departamento de la lista
+Método para buscar un departamento de un municipio
+Método para consultar si existen departamentos con un ingreso superior a un valor dado
+Método para consultar si existen departamentos con una población igual a un valor dado
+Método para visualizar el total del censo por departamento
+Método para visualizar el total del censo a nivel nacional
+Sobrecarga del operador << para imprimir los detalles del censo
+La estructura de datos que se podría utilizar para almacenar los objetos de estas clases podría ser un vector para los departamentos y una lista enlazada para los municipios dentro de cada departamento.
+
+Con esta estructura general, se podrían implementar los métodos necesarios para cumplir con los requisitos de la aplicación.
